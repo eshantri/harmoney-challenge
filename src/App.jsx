@@ -1,6 +1,6 @@
 import { Typography } from "@mui/material";
 import MessageList from "./components/MessageList";
-import InputBox from "./components/inputBox";
+import InputBox from "./components/InputBox";
 import useSWR, { mutate } from "swr";
 import { apiUrl } from "./utils/apiEndpoints";
 
